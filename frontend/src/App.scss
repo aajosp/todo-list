@@ -1,1 +1,14 @@
+$side-nav-bg-col: #222528;
+$main-bg-col: #1C1F22;
+
+.App {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.SideNavbar {
+    width: 15vw;
+    height: 100vh;
+    background-color: $main-bg-col;
+}
 

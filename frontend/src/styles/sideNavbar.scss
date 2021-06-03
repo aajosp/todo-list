@@ -1,1 +1,46 @@
 // styling for side navbar
+$text-bg-col: #E5E5E5;
+
+.UserInfo, .SideMenuOptions {
+    color: $text-bg-col;
+}
+
+.UserInfo {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserInfoTop {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.UserInfoBottom {
+    height: 50%;
+}
+
+.userProfilePic {
+    height: 50px;
+    width: 50px;
+    background-color: $text-bg-col;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 5px;
+}
+
+.Settings {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: $text-bg-col;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}

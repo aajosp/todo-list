@@ -17,26 +17,26 @@ class UserInfo extends React.Component {
     render(){
         return(
             <div className="UserInfo">
-                <Settings />
-                <AccessAlarm />
-                <img className="userProfilePic" src={this.userProfilePicSrc}></img>
-                <button className="settingsButton">
-                    <span class="material-icons-outlined"></span>
-                </button>
-                <h3 className="userName"></h3>
+                <div className="UserInfoTop">
+                    <div className="userProfilePic"></div>
+                    <Settings className="Settings"/>
+                </div>
+                <div className="UserInfoBottom">
+                    <h3 className="userName">John Smith</h3>
+                </div>
             </div>
         );
         
     }
 }
 
-class TodoActions extends React.Component{
+class SideMenuOptions extends React.Component{
     // constructor(props) {
     //     super(props);
     // }
     render(){
         return (
-        <div className="TodoActions">
+        <div className="SideMenuOptions">
             <Event />
             <button className="todayButton">Today</button>
             <Alarm />
@@ -68,7 +68,7 @@ class SideNavbar extends React.Component {
         return(
             <div className="SideNavbar">
                 <UserInfo />
-                <TodoActions />
+                <SideMenuOptions />
                 {/* <CustomLists />  */}
             </div>  
         );

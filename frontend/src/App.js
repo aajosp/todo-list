@@ -9,7 +9,7 @@ import SideNavbar from './components/SideNavbar.js';
 function App() {
   return (
     <div className="App">
-      <SideNavbar />
+      <SideNavbar className="SideNavbar"/>
       {/* <TodoList /> 
       <Notes /> */}
     </div>

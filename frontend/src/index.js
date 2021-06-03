@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WebFont from 'webfontloader';
+
+// Fonts from webfontloader
+WebFont.load({
+  google: {
+    families: ['Inter']
+  }
+});
+
 
 ReactDOM.render(
   <React.StrictMode>
